@@ -11,6 +11,4 @@ import java.util.Optional;
 
 @Component
 public interface CategoryRepository extends JpaRepository<Category, Long>{
-
-    public List<Post> findByCategory(Category category);
 }
